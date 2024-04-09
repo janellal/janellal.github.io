@@ -11,7 +11,7 @@ description: This is a blog post of Homework 8.
 </div>
 
 <div class="middle">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="Analysis" %}
+{% include elements/button.html link="https://github.com/janellal/janellal.github.io/blob/main/python_notebooks/analysis.ipynb" text="Analysis" %}
 </div>
 
 ## Analysis for Bar Graph  
