@@ -1,37 +1,25 @@
 ---
-title: The Hello World of Blogs
+title: HW 8 Visualization
 tags: [Technology, Blogging]
 style: fill
 color: secondary
-description: This is a blog post to get you started.
+description: This is a blog post of Homework 8.
 ---
 
-Source: [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU)
+<div class="middle">
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="Dataset" %}
+</div>
 
-This is me writing an intro to this blog post.  So introlicioius.
+<div class="middle">
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="Analysis" %}
+</div>
 
-## 1. Here is one thing I want to say
+## Analysis for Bar Graph  
+The graph I created was a bar graph with data representing the number of buildings that a Congress district acquired for each year. This is helpful to know to keep track of how many buildings are in each Congress district and the purpose of the building. On the side of the graph, it has a description key that lets people know the building's purpose and we can see how many of those buildings are in each district.
 
-This is maybe an important thing, and, at the very least it is first.
+<vegachart schema-url="{{ site.baseurl }}/assets/json/viz1.json" style="width: 100%"></vegachart>
 
-## 2. Another thing
+## Analysis for Scatter Plot
+The graph I created for the second data visualization was a scatter plot that represents the year a building was acquired and the year it was constructed. It was interesting to see that most buildings were constructed the same year as acquisition, however, there were some outliers that waited after they acquired the building to construct on it. This graph is helpful to show the age of the buildings.
 
-I am now talking about a second thing, probably also good.
-
-## 3. A third thing
-
-We are now getting into the weeds of things that I am saying.  It is probably unlikely someone has made it thus far.
-
-## 4. Thing #4.
-
-At this point, you are probably no longer into me listing off things.  Let's put in an image to placate the reader:
-
-![corg](https://media.istockphoto.com/photos/welsh-corgi-picture-id962032196?k=20&m=962032196&s=170667a&w=0&h=NhIyQdJgVw0cw_EeLtP3LcLExLuiAWPwzL6_WsRKUfQ=)
-
-## 5. The last thing
-
-This is my final thing, probably would be great if this was a TL;DR or summary.  But I don't have that for you.  I have given you so little already, why start saying anything useful now?
-
-Besides, all anybody wants is the DERP:
-
-![MAXIMUM DERP](http://3.bp.blogspot.com/-AXnXOPZgqMk/Un-xCBAa4gI/AAAAAAAAsWA/z_lZsvDoCRk/s1600/derpstages.jpg)
+<vegachart schema-url="{{ site.baseurl }}/assets/json/viz2.json" style="width: 100%"></vegachart>
